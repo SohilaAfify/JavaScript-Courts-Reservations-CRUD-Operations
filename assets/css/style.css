@@ -1,0 +1,72 @@
+body {
+  background-image: url(../Image/Bg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.headers {
+  color: white;
+}
+#bu {
+  color: white;
+  border-color: black;
+  width: 100%;
+  font-weight: bold;
+  animation: colorChange 2s infinite;
+}
+@keyframes colorChange {
+    0% { background: linear-gradient(to right, black, gray); }
+    50% { background: linear-gradient(to right, #111, #333); }
+    100% { background: linear-gradient(to right, #222, #444); }
+  }
+#bu:hover{
+    border-color: darkgray;
+    color: white;
+    background-color: darkgray;
+}
+label {
+  color: white;
+}
+#dropdownMenuButton1,
+#dropdownMenuButton2,
+#dropdownMenuButton3 {
+  background-color: white;
+  border-color: white;
+  color: black;
+}
+#dropdownMenuButton1:hover,
+#dropdownMenuButton2:hover,
+#dropdownMenuButton3:hover {
+  border-color: black;
+  color: white;
+  background-color: black;
+}
+.wide-button {
+  width: 100%;
+}
+.popupForm{
+    color: black;
+}
+
+#totalNumber{
+  font-size: 25px;
+}
+
+
+.left-side {
+  float: left;
+}
+
+.right-side {
+  float: right;
+}
+
+table, tr, td {
+  background-color: rgba(0, 0, 0, 0.6); /* Adjust the opacity value as needed */
+  color: white;
+  
+}
+
+label {
+  font-weight: bold;
+}
